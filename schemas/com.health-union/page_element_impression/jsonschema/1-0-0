@@ -1,0 +1,42 @@
+{
+  "$schema": "/schemas/com.health-union/page_element_impression/jsonschema/1-0-0#",
+  "description": "Schema for an impression of a page element",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "page_element_impression",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "impressionId": {
+      "type": "string"
+    },
+    "zoneId": {
+      "type": "string"
+    },
+    "bannerId": {
+      "type": "string"
+    },
+    "campaignId": {
+      "type": "string"
+    },
+    "advertiserId": {
+      "type": "string"
+    },
+    "targetUrl": {
+      "type": "string",
+      "minLength": 1
+    },
+    "costModel": {
+      "enum": ["cpa", "cpc", "cpm"]
+    },
+    "cost": {
+      "type": "number",
+      "minimum": 0
+    }
+  },
+  "minProperties":1,
+  "dependencies": {"cost": ["costModel"]},
+  "additionalProperties": false
+}

@@ -1,5 +1,5 @@
 {
-  "$schema": "http://yourcompany-iglu.com/schemas/com.ironsidegroup/wordpress/jsonschema/1-0-0#",
+  "$schema": "/schemas/com.health-union/wordpress/jsonschema/1-0-0#",
   "description": "Schema for a Wordpress post custom context",
   "self": {
     "vendor": "com.health-union",
