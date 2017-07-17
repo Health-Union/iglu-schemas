@@ -1,0 +1,90 @@
+{
+  "$schema": "http://yourcompany-iglu.com/schemas/com.ironsidegroup/wordpress/jsonschema/1-0-0#",
+  "description": "Schema for a Wordpress post custom context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "wordpress",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "post_author": {
+      "type": "integer"
+    },
+    "post_author_name": {
+      "type": ["string", "null"]
+    },
+    "post_date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "post_date_gmt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "post_title": {
+      "type": ["string", "null"]
+    },
+    "post_name": {
+      "type": ["string", "null"]
+    },
+    "post_modified": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "post_modified_gmt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "guid": {
+      "type": "string"
+    },
+    "post_permalink": {
+      "type": "string"
+    },
+    "post_type": {
+      "type": "string"
+    },
+    "comment_status": {
+      "type": ["string", "null"]
+    },
+    "comment_count": {
+      "type": "integer"
+    },
+    "post_tags": {
+      "type": "string"
+    },
+    "post_categories": {
+      "type": "string"
+    },
+    "post_thumbnail": {
+      "type": "string"
+    },
+    "post_links": {
+      "type": "integer"
+    },
+    "post_headings": {
+      "type": "integer"
+    },
+    "post_paragraphs": {
+      "type": "integer"
+    },
+    "post_images": {
+      "type": "integer"
+    },
+    "post_videos": {
+      "type": "integer"
+    },
+    "post_length": {
+      "type": "integer"
+    },
+    "post_words": {
+      "type": "integer"
+    }
+  },
+  "additionalProperties": false
+}
