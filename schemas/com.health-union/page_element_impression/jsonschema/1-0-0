@@ -1,6 +1,7 @@
 {
   "$schema": "/schemas/com.health-union/page_element_impression/jsonschema/1-0-0#",
   "description": "Schema for an impression of a page element",
+  "title": "page_element_impression",
   "self": {
     "vendor": "com.health-union",
     "name": "page_element_impression",
