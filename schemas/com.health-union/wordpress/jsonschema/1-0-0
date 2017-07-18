@@ -1,5 +1,4 @@
 {
-  "$schema": "https://bitbucket.org/healthunion/iglu-schemas/raw/HEAD/schemas/com.health-union/wordpress/jsonschema/1-0-0#",
   "description": "Schema for a Wordpress post custom context",
   "title": "wordpress_meta",
   "self": {
