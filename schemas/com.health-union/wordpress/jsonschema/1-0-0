@@ -12,6 +12,9 @@
     "id": {
       "type": "integer"
     },
+    "code_revision": {
+      "type": ["string", "null"]
+    },
     "post_author": {
       "type": "integer"
     },

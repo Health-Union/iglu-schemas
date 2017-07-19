@@ -34,7 +34,10 @@
     "cost": {
       "type": "number",
       "minimum": 0
-    }
+    },
+    "code_revision": {
+      "type": ["string", "null"]
+    },
   },
   "minProperties":1,
   "dependencies": {"cost": ["costModel"]}
