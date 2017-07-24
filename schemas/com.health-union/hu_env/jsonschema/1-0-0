@@ -1,0 +1,43 @@
+{
+  "description": "Schema for HU specific data",
+  "title": "hu_env",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "hu_env",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "code_revision": {
+      "type": ["string", "null"]
+    },
+    "DEVELOPMENT_ENV": {
+      "type": "boolean"
+    },
+    "WP_DEBUG": {
+      "type": "boolean"
+    },
+    "WP_DEBUG_DISPLAY": {
+      "type": "boolean"
+    },
+    "SCRIPT_DEBUG": {
+      "type": "boolean"
+    },
+    "post_type": {
+      "type": ["string", "null"]
+    },
+    "post_id": {
+      "type": "integer"
+    },
+    "show_ads": {
+      "type": "boolean"
+    },
+    "ad_prefix": {
+      "type": ["string", "null"]
+    },
+    "ad_category": {
+      "type": ["string", "null"]
+    }
+  }
+}
