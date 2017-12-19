@@ -12,6 +12,9 @@
     "id": {
       "type": "integer"
     },
+    "post_id": {
+      "type": "integer"
+    },
     "post_author": {
       "type": "integer"
     },
