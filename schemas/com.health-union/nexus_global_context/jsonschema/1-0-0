@@ -1,0 +1,56 @@
+{
+  "description": "Schema for Nexus global snowplow context",
+  "title": "nexus_global_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_global_context",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "site_id": {
+      "type": "string"
+    },
+    "version_id": {
+      "type": "string"
+    },
+    "git_commit_id": {
+      "type": "string"
+    },
+    "page_category": {
+      "type": "string"
+    },
+    "nexus_page_id": {
+      "type": "string"
+    },
+    "elastic_search_type": {
+      "type": ["string", "null"]
+    },
+    "elastic_search_query": {
+      "type": ["string", "null"],
+      "contentEncoding": "base64"
+    },
+    "top_content_ids": {
+      "type": "array"
+    },
+    "top_content_location": {
+      "type": ["string", "null"]
+    },
+    "featured_content_ids": {
+      "type": "array"
+    },
+    "featured_content_location": {
+      "type": ["string", "null"]
+    },
+    "recommendation_engine": {
+      "type": ["string", "null"]
+    },
+    "recommended_content_ids": {
+      "type": "array"
+    },
+    "recommendation_location": {
+      "type": ["string", "null"]
+    }
+  }
+}
