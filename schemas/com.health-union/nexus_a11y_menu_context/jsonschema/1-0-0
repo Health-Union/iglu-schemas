@@ -1,0 +1,19 @@
+{
+  "description": "Schema for Nexus a11y snowplow context",
+  "title": "nexus_a11y_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_a11y_context",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "font_selection": {
+      "type": "string"
+    },
+    "contrast_selection": {
+      "type": "string"
+    }
+  }
+}
