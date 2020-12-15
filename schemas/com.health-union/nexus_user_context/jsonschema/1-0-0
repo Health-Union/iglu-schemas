@@ -1,0 +1,49 @@
+{
+  "description": "Schema for Nexus user snowplow context",
+  "title": "nexus_user_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_user_context",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "snowplow_user_id": {
+      "type": "string"
+    },
+    "google_analytics_id": {
+      "type": "string"
+    },
+    "wordpress_user_id": {
+      "type": "string"
+    },
+    "facebook_pixel_user_id": {
+      "type": "string"
+    },
+    "qualtrics_user_id": {
+      "type": "string"
+    },
+    "liveramp_user_id": {
+      "type": "string"
+    },
+    "krux_user_id": {
+      "type": "string"
+    },
+    "krux_user_segments": {
+      "type": "string"
+    },
+    "pendo_user_id": {
+      "type": "string"
+    },
+    "pendo_user_segments": {
+      "type": "string"
+    },
+    "user_login_status": {
+      "type": "string"
+    },
+    "user_role": {
+      "type": "string"
+    }  
+  }
+}
