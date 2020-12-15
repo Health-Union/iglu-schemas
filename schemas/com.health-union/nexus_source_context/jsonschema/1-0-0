@@ -1,0 +1,28 @@
+{
+  "description": "Schema for Nexus source snowplow context",
+  "title": "nexus_source_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_source_context",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "source_page_id": {
+      "type": "string"
+    },
+    "source_trigger_type": {
+      "type": "string"
+    },
+    "source_trigger_text": {
+      "type": "string"
+    },
+    "source_trigger_class_list": {
+      "type": "array"
+    },
+    "source_trigger_id": {
+      "type": ["string", "null"]
+    }
+  }
+}
