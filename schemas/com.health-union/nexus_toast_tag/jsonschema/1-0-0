@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_toast_tag/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow toast event tag",
+  "title": "nexus_toast_tag",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_toast_tag",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "toast_type": {
+      "type": "string"
+    },
+    "toast_url": {
+      "type": ["string", "null"]
+    },
+    "toast_text": {
+      "type": "string"
+    },
+    "class_list": {
+      "type": "array"
+    },
+    "toast_id": {
+      "type": "string"
+    },
+    "global_context": {
+      "type": "object"
+    },
+    "user_context": {
+      "type": "object"
+    },
+    "source_context": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "toast_type",
+    "toast_text",
+    "class_list",
+    "global_context",
+    "user_context",
+    "source_context"
+  ]
+}
