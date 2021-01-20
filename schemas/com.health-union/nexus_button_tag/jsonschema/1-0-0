@@ -30,9 +30,10 @@
     }
   },
   "required": [
-    "dialog_type",
-    "dialog_text",
-    "dialog_class_list",
+    "button_type",
+    "button_text",
+    "button_class_list",
+    "button_id",
     "global_context",
     "user_context"
   ]

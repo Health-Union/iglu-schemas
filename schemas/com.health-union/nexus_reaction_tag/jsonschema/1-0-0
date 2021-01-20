@@ -16,7 +16,7 @@
     "reaction_toggle": {
       "type": "string"
     },
-    "prior_reactions: {
+    "prior_reactions": {
       "type": "object"
     },
     "global_context": {

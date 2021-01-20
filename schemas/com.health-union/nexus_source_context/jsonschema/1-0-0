@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_source_context/jsonschema/1-0-0",
-  "description": "Schema for Nexus source snowplow context",
+  "description": "Schema for Nexus snowplow source context",
   "title": "nexus_source_context",
   "self": {
     "vendor": "com.health-union",
