@@ -24,5 +24,11 @@
     "source_trigger_id": {
       "type": ["string", "null"]
     }
-  }
+  },
+  "required": [
+    "source_page_id",
+    "source_trigger_type",
+    "source_trigger_text",
+    "source_trigger_class_list"
+  ]
 }

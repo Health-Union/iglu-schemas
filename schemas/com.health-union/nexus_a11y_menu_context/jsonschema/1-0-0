@@ -15,5 +15,9 @@
     "contrast_selection": {
       "type": "string"
     }
-  }
+  },
+  "required": [
+    "font_selection",
+    "contrast_selection"
+  ]
 }
