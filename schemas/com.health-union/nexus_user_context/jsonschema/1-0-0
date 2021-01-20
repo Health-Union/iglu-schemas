@@ -20,25 +20,25 @@
       "type": "string"
     },
     "facebook_pixel_user_id": {
-      "type": "string"
+      "type":["string", "null"]
     },
     "qualtrics_user_id": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "liveramp_user_id": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "krux_user_id": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "krux_user_segments": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "pendo_user_id": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "pendo_user_segments": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "user_login_status": {
       "type": "string"
@@ -51,13 +51,6 @@
     "snowplow_user_id",
     "google_analytics_id",
     "wordpress_user_id",
-    "facebook_pixel_user_id",
-    "qualtrics_user_id",
-    "liveramp_user_id",
-    "krux_user_id",
-    "krux_user_segments",
-    "pendo_user_id",
-    "pendo_user_segments",
     "user_login_status",
     "user_role"
   ]

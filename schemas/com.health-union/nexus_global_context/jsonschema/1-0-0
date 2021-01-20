@@ -14,10 +14,10 @@
       "type": "string"
     },
     "version_id": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "git_commit_id": {
-      "type": "string"
+      "type": ["string", "null"]
     },
     "page_category": {
       "type": "string"
@@ -56,8 +56,6 @@
   },
   "required": [
     "site_id",
-    "version_id",
-    "git_commit_id",
     "page_category",
     "nexus_page_id"
   ]
