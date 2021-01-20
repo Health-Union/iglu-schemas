@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_dialog_tag/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow dialog tag",
+  "title": "nexus_dialog_tag",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_dialog_tag",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "dialog_type": {
+      "type": "string"
+    },
+    "dialog_text": {
+      "type": "string"
+    },
+    "dialog_class_list": {
+      "type": "array"
+    },
+    "dialog_id": {
+      "type": ["string", "null"]
+    },
+    "global_context": {
+      "type": "object"
+    },
+    "user_context": {
+      "type": "object"
+    },
+    "source_context": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "dialog_type",
+    "dialog_text",
+    "dialog_class_list",
+    "global_context",
+    "user_context",
+    "source_context"
+  ]
+}

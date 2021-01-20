@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_social_connect_tag/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow scroll tracking tag",
+  "title": "nexus_social_connect_tag",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_social_connect_tag",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "account_name": {
+      "type": "string"
+    },
+    "global_context": {
+      "type": "object"
+    },
+    "user_context": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "account_name",
+    "global_context",
+    "user_context"
+  ]
+}

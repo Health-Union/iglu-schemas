@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_reaction_tag/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow reaction tag",
+  "title": "nexus_reaction_tag",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_reaction_tag",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "reaction_type": {
+      "type": "string"
+    },
+    "reaction_toggle": {
+      "type": "string"
+    },
+    "prior_reactions": {
+      "type": "object"
+    },
+    "global_context": {
+      "type": "object"
+    },
+    "user_context": {
+      "type": "object"
+    },
+    "source_context": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "reaction_type",
+    "reaction_toggle",
+    "prior_reactions",
+    "global_context",
+    "user_context",
+    "source_context"
+  ]
+}

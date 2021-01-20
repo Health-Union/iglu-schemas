@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_button_tag/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow button tag",
+  "title": "nexus_button_tag",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_button_tag",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "button_type": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_class_list": {
+      "type": "array"
+    },
+    "button_id": {
+      "type": ["string", "null"]
+    },
+    "global_context": {
+      "type": "object"
+    },
+    "user_context": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "button_type",
+    "button_text",
+    "button_class_list",
+    "button_id",
+    "global_context",
+    "user_context"
+  ]
+}

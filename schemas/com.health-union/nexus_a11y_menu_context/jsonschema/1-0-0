@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_a11y_menu_context/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow a11y context",
+  "title": "nexus_a11y_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_a11y_context",
+    "format": "jsonschema",
+    "version": "1-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "font_selection": {
+      "type": "string"
+    },
+    "contrast_selection": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "font_selection",
+    "contrast_selection"
+  ]
+}
