@@ -1,0 +1,67 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_global_context/jsonschema/1-0-0",
+  "description": "Schema for Nexus snowplow global context",
+  "title": "nexus_global_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_global_context",
+    "format": "jsonschema",
+    "version": "2-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "site_id": {
+      "type": "string"
+    },
+    "version_id": {
+      "type": ["string", "null"]
+    },
+    "git_commit_id": {
+      "type": ["string", "null"]
+    },
+    "page_category": {
+      "type": "string"
+    },
+    "nexus_page_id": {
+      "type": "string"
+    },
+    "synthetic_pageview_id": {
+      "type": "string"
+    },
+    "elastic_search_type": {
+      "type": ["string", "null"]
+    },
+    "elastic_search_query": {
+      "type": ["string", "null"],
+      "contentEncoding": "base64"
+    },
+    "top_content_ids": {
+      "type": "array"
+    },
+    "top_content_location": {
+      "type": ["string", "null"]
+    },
+    "featured_content_ids": {
+      "type": "array"
+    },
+    "featured_content_location": {
+      "type": ["string", "null"]
+    },
+    "recommendation_engine": {
+      "type": ["string", "null"]
+    },
+    "recommended_content_ids": {
+      "type": "array"
+    },
+    "recommendation_location": {
+      "type": ["string", "null"]
+    }
+  },
+  "required": [
+    "site_id",
+    "page_category",
+    "nexus_page_id",
+    "synthetic_pageview_id"
+  ], 
+  "additionalProperties": false 
+}
