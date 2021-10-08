@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_global_context/jsonschema/2-0-0",
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/global_context_postman_testing/schemas/com.health-union/nexus_global_context/jsonschema/2-0-0",
   "description": "Schema for Nexus snowplow global context",
   "title": "nexus_global_context",
   "self": {
@@ -32,8 +32,7 @@
       "type": ["string", "null"]
     },
     "elastic_search_query": {
-      "type": ["string", "null"],
-      "contentEncoding": "base64"
+      "type": ["string", "null"]
     },
     "top_content_ids": {
       "type": "array"
