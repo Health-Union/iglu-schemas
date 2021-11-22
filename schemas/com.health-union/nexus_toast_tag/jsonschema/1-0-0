@@ -20,7 +20,10 @@
       "type": "string"
     },
     "class_list": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "toast_id": {
       "type": "string"

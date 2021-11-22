@@ -20,7 +20,10 @@
       "type": "string"
     },
     "source_trigger_class_list": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "source_trigger_id": {
       "type": ["string", "null"]

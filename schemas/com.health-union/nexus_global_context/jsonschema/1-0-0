@@ -33,13 +33,19 @@
       "contentEncoding": "base64"
     },
     "top_content_ids": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "top_content_location": {
       "type": ["string", "null"]
     },
     "featured_content_ids": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "featured_content_location": {
       "type": ["string", "null"]
@@ -48,7 +54,10 @@
       "type": ["string", "null"]
     },
     "recommended_content_ids": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "recommendation_location": {
       "type": ["string", "null"]
