@@ -17,7 +17,10 @@
       "type": "string"
     },
     "dialog_class_list": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "dialog_id": {
       "type": ["string", "null"]

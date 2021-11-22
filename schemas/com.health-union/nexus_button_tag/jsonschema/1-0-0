@@ -17,7 +17,10 @@
       "type": "string"
     },
     "button_class_list": {
-      "type": "array"
+      "type": "array",
+      "items": {
+          "type": "string"
+        }
     },
     "button_id": {
       "type": ["string", "null"]
