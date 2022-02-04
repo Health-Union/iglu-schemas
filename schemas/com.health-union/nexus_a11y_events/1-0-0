@@ -30,7 +30,7 @@
 		"elementContent": {
 			"type": "string"
 		},
-        "eventDesc": {
+        	"eventDesc": {
 			"type": "string"
 		}
 	},
