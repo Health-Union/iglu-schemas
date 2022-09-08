@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_user_context/jsonschema/2-0-0",
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/feature/DATA-3332/schemas/com.health-union/nexus_user_context/jsonschema/2-0-0",
   "description": "Schema for Nexus snowplow user context",
   "title": "nexus_user_context",
   "self": {
