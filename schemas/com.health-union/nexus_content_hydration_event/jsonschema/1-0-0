@@ -1,0 +1,29 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/ab-test-updates/schemas/com.health-union/nexus_content_hydration_event/jsonschema/1-0-0",
+    "description": "Schema for Nexus dynamic content hydration events",
+    "title": "nexus_content_hydration_event",
+    "self": {
+        "vendor": "com.health-union",
+        "name": "nexus_content_hydration_event",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+
+    "type": "object",
+    "properties": {
+        "elementId": {
+            "type": "string"
+        },
+        "hydration_type": {
+            "type": "string",
+            "minLength": 1
+        },
+        "hydration_content_details": {
+            "type": "object",
+            "properties":{},
+            "additionalProperties": true
+        }
+    },
+    "required": ["elementId","hydration_type","hydration_content_details"],
+    "additionalProperties": false
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/ab-test-updates/schemas/com.health-union/nexus_global_context/jsonschema/3-0-0",
+  "description": "Schema for Nexus snowplow global context",
+  "title": "nexus_global_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_global_context",
+    "format": "jsonschema",
+    "version": "3-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "site_id": {
+      "type": "string"
+    },
+    "version_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "git_commit_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "page_category": {
+      "type": "string"
+    },
+    "nexus_page_id": {
+      "type": "string"
+    },
+    "synthetic_pageview_id": {
+      "type": "string"
+    },
+    "elastic_search_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "elastic_search_query": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "contentEncoding": "base64"
+    },
+    "top_content_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "top_content_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "featured_content_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "featured_content_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recommendation_engine": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recommended_content_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "recommendation_location": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "active_ab_tests": {
+      "description": "Information about active A/B tests for the event",
+      "type": "object",
+      "properties": {},
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "site_id",
+    "page_category",
+    "nexus_page_id",
+    "synthetic_pageview_id"
+  ],
+  "additionalProperties": false
+}
