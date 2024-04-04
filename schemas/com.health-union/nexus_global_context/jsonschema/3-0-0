@@ -91,9 +91,12 @@
     },
     "active_ab_tests": {
       "description": "Information about active A/B tests for the event",
-      "type": "object",
-      "properties": {},
-      "additionalProperties": true
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": true
+      }
     }
   },
   "required": [
