@@ -1,0 +1,26 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_ab_test_new_session_event/jsonschema/1-0-0",
+    "description": "Schema for Nexus event where a new session/user is assigned a bucket for A/B testing",
+    "title": "nexus_ab_test_new_session_event",
+    "self": {
+        "vendor": "com.health-union",
+        "name": "nexus_ab_test_new_session_event",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+
+    "type": "object",
+    "properties": {
+        "session_id": {
+            "type": "string"
+        },
+        "testing_bucket": {
+            "type": "string"
+        },
+        "testing_bucket_parameters": {
+            "type": "string"
+        }
+    },
+    "required": ["session_id","testing_bucket","testing_bucket_parameters"],
+    "additionalProperties": false
+}
