@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_user_context/jsonschema/3-0-0",
+  "description": "Schema for Nexus snowplow user context",
+  "title": "nexus_user_context",
+  "self": {
+    "vendor": "com.health-union",
+    "name": "nexus_user_context",
+    "format": "jsonschema",
+    "version": "3-0-0"
+  },
+  "type": "object",
+  "properties": {
+    "snowplow_user_id": {
+      "type": "string"
+    },
+    "google_analytics_id": {
+      "type": "string"
+    },
+    "wordpress_user_id": {
+      "type": "string"
+    },
+    "facebook_pixel_user_id": {
+      "type":["string", "null"]
+    },
+    "qualtrics_user_id": {
+      "type": ["string", "null"]
+    },
+    "liveramp_user_id": {
+      "type": ["string", "null"]
+    },
+    "krux_user_id": {
+      "type": ["string", "null"]
+    },
+    "krux_cookie_id": {
+      "type": ["string", "null"]
+    },
+    "krux_user_segments": {
+      "type": ["string", "null"]
+    },
+    "pendo_user_id": {
+      "type": ["string", "null"]
+    },
+    "pendo_user_segments": {
+      "type": ["string", "null"]
+    },
+    "user_login_status": {
+      "type": "string"
+    },
+    "user_role": {
+      "type": "string"
+    },
+    "fingerprint": {
+      "type": ["string", "null"]
+    }  
+  },
+  "required": [
+    "snowplow_user_id",
+    "google_analytics_id",
+    "wordpress_user_id",
+    "user_login_status",
+    "user_role"
+  ]
+}
