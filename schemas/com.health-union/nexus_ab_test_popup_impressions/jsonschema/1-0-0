@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Health-Union/iglu-schemas/master/schemas/com.health-union/nexus_ab_test_popup_impressions/jsonschema/1-0-0",
+    "description": "Schema for Nexus event where a lead gen popup is displayed for A/B testing",
+    "title": "nexus_ab_test_popup_impressions",
+    "self": {
+        "vendor": "com.health-union",
+        "name": "nexus_ab_test_popup_impressions",
+        "format": "jsonschema",
+        "version": "1-0-0"
+    },
+
+    "type": "object",
+    "properties": {
+        "popUpTime": {
+            "type": "string"
+        },
+        "popUpSource": {
+            "type": "string"
+        }
+    },
+    "required": ["popUpTime","popUpSource"],
+    "additionalProperties": false
+}
